@@ -1,0 +1,9 @@
+# Cómo ejecutar el script de automatización
+
+1. Clonar el repositorio.
+2. Abrir el proyecto en IntelliJ IDEA.
+3. Asegurarse de tener Java 11 y Gradle instalados.
+4. Ejecutar el comando: 
+   ./gradlew clean test
+5. Los reportes de Serenity se generan en:
+   build/reports/tests/test/index.html
