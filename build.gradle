@@ -1,0 +1,39 @@
+plugins {
+    id 'java'
+}
+
+group = 'org.example'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+
+    testImplementation 'net.serenity-bdd:serenity-core:2.6.0'
+    testImplementation 'net.serenity-bdd:serenity-screenplay:2.6.0'
+    testImplementation 'net.serenity-bdd:serenity-screenplay-webdriver:2.6.0'
+    testImplementation 'net.serenity-bdd:serenity-junit:2.6.0'
+    testImplementation 'net.serenity-bdd:serenity-cucumber6:2.6.0'
+
+
+    testImplementation 'io.cucumber:cucumber-java:6.10.4'
+    testImplementation 'io.cucumber:cucumber-junit:6.10.4'
+
+
+    testImplementation 'org.seleniumhq.selenium:selenium-java:3.141.59'
+
+    testImplementation 'io.github.bonigarcia:webdrivermanager:5.5.0'
+    testImplementation 'junit:junit:4.13.2'
+}
+
+test {
+    useJUnit()
+}
+
+tasks.withType(JavaCompile) {
+    options.encoding = 'UTF-8'
+    sourceCompatibility = '11'
+    targetCompatibility = '11'
+}

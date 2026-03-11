@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="2" name="Login en Aleerp" skipped="0" tests="2" time="58.74" timestamp="2026-03-11 04:07:17"><testcase name="Login con qa.candidate01"><failure message="&#13;&#10;Expected: an element that is not visible&#13;&#10;     but: the element identified by [[ChromeDriver: chrome on WINDOWS (25790b5e9cf8345b958f870ca66add52)] -&gt; id: frmInicioSesion] [¡Bienvenido!&#10;Olvidé la contraseña&#10;Test Zone&#10;×&#10;Ingresar] was visible" type="java.lang.AssertionError">&#13;
+Expected: an element that is not visible&#13;
+     but: the element identified by [[ChromeDriver: chrome on WINDOWS (25790b5e9cf8345b958f870ca66add52)] -&gt; id: frmInicioSesion] [¡Bienvenido!
+Olvidé la contraseña
+Test Zone
+×
+Ingresar] was visible</failure><system-err>&#13;
+Expected: an element that is not visible&#13;
+     but: the element identified by [[ChromeDriver: chrome on WINDOWS (25790b5e9cf8345b958f870ca66add52)] -&gt; id: frmInicioSesion] [¡Bienvenido!
+Olvidé la contraseña
+Test Zone
+×
+Ingresar] was visible&#13;
+org.example.tasks.Login.performAs(Login.java:31)&#13;
+org.example.steps.LoginSteps.iniciaSesion(LoginSteps.java:39)&#13;
+io.cucumber.java.Invoker.doInvoke(Invoker.java:66)&#13;
+io.cucumber.java.Invoker.invoke(Invoker.java:24)&#13;
+io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)&#13;
+io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)&#13;
+io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)&#13;
+io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)&#13;
+io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)&#13;
+io.cucumber.core.runner.TestStep.run(TestStep.java:64)&#13;
+io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)&#13;
+io.cucumber.core.runner.TestCase.run(TestCase.java:104)&#13;
+io.cucumber.core.runner.Runner.runPickle(Runner.java:73)&#13;
+io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)&#13;
+io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)&#13;
+io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:258)&#13;
+io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:57)&#13;
+worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)&#13;
+worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)&#13;
+</system-err></testcase><testcase name="Login con qa.candidate02"><failure message="&#13;&#10;Expected: an element that is not visible&#13;&#10;     but: the element identified by [[ChromeDriver: chrome on WINDOWS (b2718a47760ff939e98ccd51a4e7e6f4)] -&gt; id: frmInicioSesion] [¡Bienvenido!&#10;Olvidé la contraseña&#10;Test Zone&#10;×&#10;Ingresar] was visible" type="java.lang.AssertionError">&#13;
+Expected: an element that is not visible&#13;
+     but: the element identified by [[ChromeDriver: chrome on WINDOWS (b2718a47760ff939e98ccd51a4e7e6f4)] -&gt; id: frmInicioSesion] [¡Bienvenido!
+Olvidé la contraseña
+Test Zone
+×
+Ingresar] was visible</failure><system-err>&#13;
+Expected: an element that is not visible&#13;
+     but: the element identified by [[ChromeDriver: chrome on WINDOWS (b2718a47760ff939e98ccd51a4e7e6f4)] -&gt; id: frmInicioSesion] [¡Bienvenido!
+Olvidé la contraseña
+Test Zone
+×
+Ingresar] was visible&#13;
+org.example.tasks.Login.performAs(Login.java:31)&#13;
+org.example.steps.LoginSteps.iniciaSesion(LoginSteps.java:39)&#13;
+io.cucumber.java.Invoker.doInvoke(Invoker.java:66)&#13;
+io.cucumber.java.Invoker.invoke(Invoker.java:24)&#13;
+io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)&#13;
+io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)&#13;
+io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)&#13;
+io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)&#13;
+io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)&#13;
+io.cucumber.core.runner.TestStep.run(TestStep.java:64)&#13;
+io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)&#13;
+io.cucumber.core.runner.TestCase.run(TestCase.java:104)&#13;
+io.cucumber.core.runner.Runner.runPickle(Runner.java:73)&#13;
+io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)&#13;
+io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)&#13;
+io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:258)&#13;
+io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:57)&#13;
+worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)&#13;
+worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)&#13;
+</system-err></testcase></testsuite>
